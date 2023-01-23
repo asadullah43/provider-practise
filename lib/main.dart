@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider_practise/home_screen.dart';
 import 'package:provider_practise/state_full.dart';
+import 'package:provider_practise/why_provider.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyStateFull(),
+      home: WhyProvider(),
     );
   }
 }
