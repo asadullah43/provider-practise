@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 
 class WhyProvider extends StatefulWidget {
-  WhyProvider({Key? key}) : super(key: key);
+  const WhyProvider({Key? key}) : super(key: key);
 
   @override
   State<WhyProvider> createState() => _WhyProviderState();
@@ -13,6 +13,7 @@ class _WhyProviderState extends State<WhyProvider> {
   int x = 0;
   @override
   void initState() {
+    // ignore: todo
     // TODO: implement initState
     super.initState();
     Timer.periodic(const Duration(seconds: 1), (timer) {
